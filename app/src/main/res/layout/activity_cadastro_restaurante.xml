@@ -6,4 +6,64 @@
     android:layout_height="match_parent"
     tools:context="com.example.josevictor.fomepede.CadastroRestaurante">
 
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="6dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/lblNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nome" />
+
+        <EditText
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/lblCep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cep" />
+
+        <EditText
+            android:id="@+id/txtCep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/lblEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/estado" />
+
+        <Spinner
+            android:id="@+id/spnEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03" />
+
+        <TextView
+            android:id="@+id/lblCidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cidade" />
+
+        <EditText
+            android:id="@+id/txtCidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

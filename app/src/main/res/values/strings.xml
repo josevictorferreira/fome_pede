@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">FomePede</string>
     <string name="adicionar">Adicionar</string>
+    <string name="nome">Nome</string>
+    <string name="cep">CEP</string>
+    <string name="endereco">Endereço</string>
+    <string name="estado">Estado</string>
+    <string name="cidade">Cidade</string>
 </resources>
