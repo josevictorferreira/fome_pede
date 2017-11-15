@@ -7,12 +7,25 @@
     tools:context="com.example.josevictor.fomepede.CadastroRestaurante">
 
     <LinearLayout
-        android:layout_width="344dp"
-        android:layout_height="495dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="6dp"
-        android:weightSum="1">
+        android:weightSum="1"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/lblNome"
@@ -28,6 +41,19 @@
             android:inputType="textPersonName" />
 
         <TextView
+            android:id="@+id/lblTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/telefone" />
+
+        <EditText
+            android:id="@+id/txtTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone" />
+
+        <TextView
             android:id="@+id/lblCep"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,7 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="number" />
 
         <TextView
             android:id="@+id/lblEstado"
@@ -50,7 +76,8 @@
             android:id="@+id/spnEstado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.03" />
+            android:layout_weight="0.03"
+            android:entries="@array/estados_brasileiros" />
 
         <TextView
             android:id="@+id/lblCidade"
@@ -64,6 +91,44 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/lblEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/endereco" />
+
+        <EditText
+            android:id="@+id/txtEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/lblNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/numero" />
+
+        <EditText
+            android:id="@+id/txtNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnAdicionar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adicionar" />
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/voltar" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

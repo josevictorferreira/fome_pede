@@ -6,4 +6,11 @@
     <string name="endereco">Endereço</string>
     <string name="estado">Estado</string>
     <string name="cidade">Cidade</string>
+    <string name="numero">Número</string>
+    <string name="voltar">Voltar</string>
+    <string name="limpar_campos">Limpar Campos</string>
+    <string name="telefone">Telefone</string>
+    <string name="mensagem_erro_nome">Campo nome e obrigatorio.</string>
+    <string name="mensagem_erro_telefone">Campo telefone e obrigatorio.</string>
+    <string name="mensagem_erro_salvar">Erro ao salvar.</string>
 </resources>
