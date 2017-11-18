@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FomePede</string>
+    <string name="adicionar">Add New</string>
+    <string name="nome">Name</string>
+    <string name="cep">Zipcode</string>
+    <string name="endereco">Address</string>
+    <string name="estado">State</string>
+    <string name="cidade">City</string>
+    <string name="numero">Number</string>
+    <string name="voltar">Back</string>
+    <string name="limpar_campos">Clean Fields</string>
+    <string name="telefone">Phone</string>
+    <string name="mensagem_erro_nome">Field name is required</string>
+    <string name="mensagem_erro_telefone">Field phone is required</string>
+    <string name="mensagem_erro_salvar">Error saving</string>
+    <string name="excluir">Delete</string>
+    <string name="alterar">Edit</string>
+    <string name="ligar">Call</string>
+    <string name="sobre">About</string>
+    <string name="nome_aplicativo">FomePede</string>
+    <string name="versao">Vers.: 0.1.0</string>
+    <string name="develop">Developed by Jose Victor</string>
+    <string name="proposito">App Purpose:</string>
+    <string name="proposito_text">This application permits the user manage their restaurannts witch he knows and using like an agenda and recommending system to a third person</string>
+</resources>
