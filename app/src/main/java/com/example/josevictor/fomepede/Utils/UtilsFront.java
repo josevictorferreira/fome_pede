@@ -1,14 +1,19 @@
 package com.example.josevictor.fomepede.Utils;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
+
+import com.example.josevictor.fomepede.Principal;
 
 /**
  * Created by josevictor on 15/11/17.
  */
 
 public class UtilsFront {
+
+    public static boolean retorno = false;
 
     public static void mensagemErro(Context contexto, int idTexto) {
         AlertDialog.Builder builder = new AlertDialog.Builder(contexto);
@@ -28,4 +33,5 @@ public class UtilsFront {
         AlertDialog alert = builder.create();
         alert.show();
     }
+
 }

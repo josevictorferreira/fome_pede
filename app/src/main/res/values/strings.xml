@@ -13,4 +13,13 @@
     <string name="mensagem_erro_nome">Campo nome e obrigatorio.</string>
     <string name="mensagem_erro_telefone">Campo telefone e obrigatorio.</string>
     <string name="mensagem_erro_salvar">Erro ao salvar.</string>
+    <string name="excluir">Excluir</string>
+    <string name="alterar">Alterar</string>
+    <string name="ligar">Ligar</string>
+    <string name="sobre">Sobre</string>
+    <string name="nome_aplicativo">FomePede</string>
+    <string name="versao">Vers.: 0.1.0</string>
+    <string name="develop">Desenvolvido por Jose Victor</string>
+    <string name="proposito">Proposito:</string>
+    <string name="proposito_text">O aplicativo permite ao usuario gerenciar os restaurantes que conhece para utilizar como agenda e recomendar a terceiros.</string>
 </resources>

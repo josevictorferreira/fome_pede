@@ -8,4 +8,7 @@
         android:title="@string/adicionar"
         android:visible="true"
         app:showAsAction="always" />
+    <item
+        android:id="@+id/menuItemInformacoes"
+        android:title="@string/sobre" />
 </menu>
